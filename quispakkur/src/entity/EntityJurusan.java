@@ -1,10 +1,10 @@
 package entity;
 
-public class JurusanEntity {
+public class EntityJurusan {
     private int kodeJurusan;
     private String nama;
 
-    public JurusanEntity(int kodeJurusan, String nama) {
+    public EntityJurusan(int kodeJurusan, String nama) {
         this.kodeJurusan = kodeJurusan;
         this.nama = nama;
     }
@@ -24,5 +24,5 @@ public class JurusanEntity {
     public void setNama(String nama) {
         this.nama = nama;
     }
-    
+
 }

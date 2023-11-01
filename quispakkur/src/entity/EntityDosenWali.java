@@ -1,12 +1,12 @@
 package entity;
 
-public class DosenWaliEntity {
+public class EntityDosenWali {
     private String nip;
     private String nama;
-    private JurusanEntity jurusan;
+    private EntityJurusan jurusan;
     private String telp;
 
-    public DosenWaliEntity(String nip, String nama, JurusanEntity jurusan, String telp) {
+    public EntityDosenWali(String nip, String nama, EntityJurusan jurusan, String telp) {
         this.nip = nip;
         this.nama = nama;
         this.jurusan = jurusan;
@@ -29,11 +29,11 @@ public class DosenWaliEntity {
         this.nama = nama;
     }
 
-    public JurusanEntity getJurusan() {
+    public EntityJurusan getJurusan() {
         return this.jurusan;
     }
 
-    public void setJurusan(JurusanEntity jurusan) {
+    public void setJurusan(EntityJurusan jurusan) {
         this.jurusan = jurusan;
     }
 

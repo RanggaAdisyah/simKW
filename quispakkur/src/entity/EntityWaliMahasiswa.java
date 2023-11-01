@@ -1,9 +1,9 @@
 package entity;
 
-public class WaliMahasiswaEntity extends Maba{
+public class EntityWaliMahasiswa extends EntityMaba {
 
-    public WaliMahasiswaEntity(String nama, String kewarganegaraan, String telp) {
+    public EntityWaliMahasiswa(String nama, String kewarganegaraan, String telp) {
         super(nama, kewarganegaraan, telp);
     }
-    
+
 }

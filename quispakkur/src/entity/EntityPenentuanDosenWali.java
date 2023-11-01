@@ -1,27 +1,27 @@
 package entity;
 
-public class PenentuanDosenWaliEntity {
-    private MahasiswaEntity mahasiswwa;
-    private DosenWaliEntity dosen;
+public class EntityPenentuanDosenWali {
+    private EntityMahasiswa mahasiswwa;
+    private EntityDosenWali dosen;
 
-    public PenentuanDosenWaliEntity(MahasiswaEntity mahasiswwa, DosenWaliEntity dosen) {
+    public EntityPenentuanDosenWali(EntityMahasiswa mahasiswwa, EntityDosenWali dosen) {
         this.mahasiswwa = mahasiswwa;
         this.dosen = dosen;
     }
 
-    public MahasiswaEntity getMahasiswwa() {
+    public EntityMahasiswa getMahasiswwa() {
         return this.mahasiswwa;
     }
 
-    public void setMahasiswwa(MahasiswaEntity mahasiswwa) {
+    public void setMahasiswwa(EntityMahasiswa mahasiswwa) {
         this.mahasiswwa = mahasiswwa;
     }
 
-    public DosenWaliEntity getDosen() {
+    public EntityDosenWali getDosen() {
         return this.dosen;
     }
 
-    public void setDosen(DosenWaliEntity dosen) {
+    public void setDosen(EntityDosenWali dosen) {
         this.dosen = dosen;
     }
 }

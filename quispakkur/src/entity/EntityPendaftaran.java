@@ -1,40 +1,41 @@
 package entity;
+
 import utils.Date;
 
-public class PendaftaranEntity {
-    private MahasiswaEntity mahasiswa;
-    private WaliMahasiswaEntity wali;
-    private PembayaranHerEntity bayar;
+public class EntityPendaftaran {
+    private EntityMahasiswa mahasiswa;
+    private EntityWaliMahasiswa wali;
+    private EntityPembayaranHer bayar;
     private String tanggalDaftar;
 
-    public PendaftaranEntity(MahasiswaEntity mahasiswa, WaliMahasiswaEntity wali, PembayaranHerEntity bayar) {
+    public EntityPendaftaran(EntityMahasiswa mahasiswa, EntityWaliMahasiswa wali, EntityPembayaranHer bayar) {
         this.tanggalDaftar = Date.now();
         this.mahasiswa = mahasiswa;
         this.wali = wali;
         this.bayar = bayar;
     }
 
-    public MahasiswaEntity getMahasiswa() {
+    public EntityMahasiswa getMahasiswa() {
         return this.mahasiswa;
     }
 
-    public void setMahasiswa(MahasiswaEntity mahasiswa) {
+    public void setMahasiswa(EntityMahasiswa mahasiswa) {
         this.mahasiswa = mahasiswa;
     }
 
-    public WaliMahasiswaEntity getWali() {
+    public EntityWaliMahasiswa getWali() {
         return this.wali;
     }
 
-    public void setWali(WaliMahasiswaEntity wali) {
+    public void setWali(EntityWaliMahasiswa wali) {
         this.wali = wali;
     }
 
-    public PembayaranHerEntity getBayar() {
+    public EntityPembayaranHer getBayar() {
         return this.bayar;
     }
 
-    public void setBayar(PembayaranHerEntity bayar) {
+    public void setBayar(EntityPembayaranHer bayar) {
         this.bayar = bayar;
     }
 

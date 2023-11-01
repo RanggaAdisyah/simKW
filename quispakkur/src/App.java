@@ -1,10 +1,10 @@
 import controller.MahasiswaControler;
-import model.MahasiswaModel;
+import model.ModelMahasiswa;
 
 public class App {
     public static void main(String[] args) throws Exception {
         MahasiswaControler obj = new MahasiswaControler();
-        MahasiswaModel.dataDummyMahasiswa();
+        ModelMahasiswa.dataDummyMahasiswa();
         obj.menuToMain();
     }
 }

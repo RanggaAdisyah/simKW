@@ -1,11 +1,11 @@
 package entity;
 
-public class Maba {
+public class EntityMaba {
     private String nama;
     private String kewarganegaraan;
     private String telp;
 
-    public Maba(String nama, String kewarganegaraan, String telp) {
+    public EntityMaba(String nama, String kewarganegaraan, String telp) {
         this.nama = nama;
         this.kewarganegaraan = kewarganegaraan;
         this.telp = telp;
@@ -33,5 +33,5 @@ public class Maba {
 
     public void setTelp(String telp) {
         this.telp = telp;
-    }   
+    }
 }

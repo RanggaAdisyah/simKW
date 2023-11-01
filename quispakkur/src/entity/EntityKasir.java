@@ -1,9 +1,9 @@
 package entity;
 
-public class KasirEntity {
+public class EntityKasir {
     private int harga;
 
-    public KasirEntity(int harga) {
+    public EntityKasir(int harga) {
         this.harga = harga;
     }
 

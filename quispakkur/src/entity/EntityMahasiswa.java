@@ -1,10 +1,10 @@
 package entity;
 
-public class MahasiswaEntity extends Maba{
+public class EntityMahasiswa extends EntityMaba {
     private String npm;
 
-    public MahasiswaEntity(String npm, String nama, String kewarganegaraan, String telp) {
-        super(nama,kewarganegaraan,telp);
+    public EntityMahasiswa(String npm, String nama, String kewarganegaraan, String telp) {
+        super(nama, kewarganegaraan, telp);
         this.npm = npm;
     }
 
