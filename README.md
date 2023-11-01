@@ -8,7 +8,7 @@
 
 - [ ] dosen wali: nip, nama, jurusan, telp
 
-- [ ] pembayaran_her: tanggal her, kasir
+- [x] pembayaran_her: tanggal her, kasir
 
 - [ ] wali mahasiswa: npm, nama, kewarganegaraan, telp
 
