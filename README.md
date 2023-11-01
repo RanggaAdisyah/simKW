@@ -1,6 +1,6 @@
 # simKW
 
-- [ ] pendaftaran : tanggal pendaftaran, mahasiswa, wali mahasiswa, jurusan, pembayaran_her.
+- [x] pendaftaran : tanggal pendaftaran, mahasiswa, wali mahasiswa, jurusan, pembayaran_her.
 
 - [ ] jurusan: kode_jurusan, nama jurusan
 
